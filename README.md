@@ -5,7 +5,7 @@ Essa proposta será no estilo SPA (Simple Page Application) e ilustrará o desen
 
 Exploramos como criar a estrutura da página, introduzindo estilos aos componentes e interatividade à aplicação.
 
-![spa de uma lista de compras]()
+![spa de uma lista de compras](https://github.com/Penichezito/SPA-Ecommerce/blob/main/imgs/spa-simplificada-ecommerce.jpg)
 
 # ***Como executar?***
 Basta fazer o download do projeto e abrir o arquivo index.html no seu browser.
