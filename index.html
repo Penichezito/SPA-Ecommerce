@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">  
+    <script src="main.js" defer></script>
+    <title>SPA Ecommerce - Sistema de Compras</title>
+</head>
+
+<body>
+    <header>
+        <div class="user">
+            <span>Usuário</span>
+        </div>
+    </header>
+
+    <section class="banner">
+        <img src="/imgs/banner1.png" alt="flash sale">
+    </section>
+
+    <section class="main-products">
+
+        <article class="product" id="product-1">
+            <img src="imgs/produto-1.png">
+            <h3 class="price-product">
+                R$ <span>129,90</span>
+            </h3>
+            <p class="name-product">Garrafa Térmica Inteligente</p>
+            <div class="quantity">
+                <span>Quantidade:</span>
+                <button class="minus" onclick="minus(1)">-</button>
+                <input id="value-quantity-1" type="text" value="1" disabled>
+                <button class="plus" onclick="plus(1)">+</button>
+            </div>
+            <button class="addToCart" onclick="addToCart(1)">Adicionar ao carrinho</button>
+            <button class="buy" onclick="buyProduct(1)">Comprar</button>
+        </article>
+
+        <article class="product" id="product-2">
+            <img src="imgs/produto-2.png">
+            <h3 class="price-product">
+                R$ <span>49,90</span>
+            </h3>
+            <p class="name-product">Garrafa Térmica Vermelha</p>
+            <div class="quantity">
+                <span>Quantidade:</span>
+                <button class="minus" onclick="minus(2)">-</button>
+                <input id="value-quantity-2" type="text" value="1" disabled>
+                <button class="plus" onclick="plus(2)">+</button>
+            </div>
+            <button class="addToCart" onclick="addToCart(2)">Adicionar ao carrinho</button>
+            <button class="buy" onclick="buyProduct(2)">Comprar</button>
+        </article>
+
+        <article class="product" id="product-3">
+            <img src="imgs/produto-3.png">
+            <h3 class="price-product">
+                R$ <span>79,90</span>
+            </h3>
+            <p class="name-product">Garrafa Térmica Black</p>
+            <div class="quantity">
+                <span>Quantidade:</span>
+                <button class="minus" onclick="minus(3)">-</button>
+                <input id="value-quantity-3" type="text" value="1" disabled>
+                <button class="plus" onclick="plus(3)">+</button>
+            </div>
+            <button class="addToCart" onclick="addToCart(3)">Adicionar ao carrinho</button>
+            <button class="buy" onclick="buyProduct(3)">Comprar</button>
+        </article>
+
+        <article class="product" id="product-4">
+            <img src="imgs/produto-4.png">
+            <h3 class="price-product">
+                R$ <span>99,90</span>
+            </h3>
+            <p class="name-product">Garrafa Térmica Ultra</p>
+            <div class="quantity">
+                <span>Quantidade:</span>
+                <button class="minus" onclick="minus(4)">-</button>
+                <input id="value-quantity-4" type="text" value="1" disabled>
+                <button class="plus" onclick="plus(4)">+</button>
+            </div>
+            <button class="addToCart" onclick="addToCart(4)">Adicionar ao carrinho</button>
+            <button class="buy" onclick="buyProduct(4)">Comprar</button>
+        </article>
+    
+    </section>
+
+    <footer>Criado por Tiago Peniche</footer>
+</body>
+
+</html>
